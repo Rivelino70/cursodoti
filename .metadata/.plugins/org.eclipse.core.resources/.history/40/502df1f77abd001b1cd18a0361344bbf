@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exericio1 {
+	
+	public static void main(String[] args) {
+		
+		String operador = JOptionPane.showInputDialog("Operador Matemático: ");
+		float valor1 = Float.parseFloat(JOptionPane.showInputDialog("Valor 1: "));
+		float valor2 = Float.parseFloat(JOptionPane.showInputDialog("Valor 2: "));
+		
+	//if (media>=6) {
+		
+		//System.out.println("Parabéns, você foi aprovado!");
+		
+	}
+	
+	if (media<4) {
+		
+		System.out.println("Infelizmente você foi reprovado!");
+	}
+	
+	if (media<6 && media>=4) {
+		
+		System.out.println("Você ficou para exame!");
+		
+	}
+	
+	
+	
+		System.out.println("Sua média na disciplina " + disciplina + " foi: " + media);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,24 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	/*
+	 * Exercicio 1
+	 * Peça para o usuário digitar o valor da tabuada que ele deseja visualizar.
+	 * Monte o laço para que apresente o resultado da tabuada, da seguinte forma:
+	 * 
+	 * numero x 0 = resultado
+	 * numero x 1 = resultado
+	 * (...)  x 100 = resultado
+	 */
+	public static void main(String[] args) {
+
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Número"));
+		int valor = Integer.parseInt(JOptionPane.showInputDialog("valor"));
+		int resultado = (numero*valor);
+		System.out.println("O valor é: " + resultado);
+	
+	}
+}

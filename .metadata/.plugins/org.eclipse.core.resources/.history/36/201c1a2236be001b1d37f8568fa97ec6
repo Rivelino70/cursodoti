@@ -1,0 +1,26 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Missao {
+
+	public static void main(String[] args) {
+
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Número"));
+		int chute = 0;
+		do {
+			chute = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número"));
+			if (chute>numero) {
+				JOptionPane.showMessageDialog("Você está chutando alto")
+				//System.out.println("Você está chutando alto");
+			}else if (chute<numero) {
+				System.out.println("Você está chutando baixo");
+			}
+				
+		}while(numero!=chute);
+			System.out.println("Parabéns você acertou");
+		
+		
+		
+	}
+}

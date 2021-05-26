@@ -1,0 +1,19 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Missao {
+
+	public static void main(String[] args) {
+
+		int numero = Integer.parseInt(JOptionPane.showInputDialog("Número"));
+		int chute = 0;
+		do {
+			chute = Integer.parseInt(JOptionPane.showInputDialog("Adivinhe o número"));
+		}while(numero!=chute);
+			System.out.println("Parabéns você acertou");
+		
+		
+		
+	}
+}

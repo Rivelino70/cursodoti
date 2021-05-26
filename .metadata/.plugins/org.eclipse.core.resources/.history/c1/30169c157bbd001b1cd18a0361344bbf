@@ -1,0 +1,20 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		String operador = JOptionPane.showInputDialog("Operador Matemático: ");
+		float valor1 = Float.parseFloat(JOptionPane.showInputDialog("Valor 1: "));
+		float valor2 = Float.parseFloat(JOptionPane.showInputDialog("Valor 2: "));
+
+
+		System.out.println("Sua média na disciplina " + disciplina + " foi: " + media);
+
+
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		String data = JOptionPane.showInputDialog("Data atual");
+		System.out.println("Nome valido");
+		
+	}
+}
+
+
+/*String nome = JOptionPane.showInputDialog("Digite o nome").toUpperCase();
+while (nome.length()<3 || nome.length()>20) {
+	nome = JOptionPane.showInputDialog("Digite o nome novamente").toLowerCase();
+}
+/*System.out.println("Nome valido");	
